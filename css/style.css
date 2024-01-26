@@ -1,0 +1,90 @@
+
+:root{
+--primary-bg: linear-gradient(134deg, #92FFC0 1.12%, #002661 103.12%);
+--secondary-bg:#E5FFF0;
+--white:#fff;
+--black:#000;
+--green:#0C5;
+--green-second:#CCFFE1;
+--blue:#003D99;
+--blue-second:#E5F0FF;
+--primary-border:#1DAAAF;
+--primary-color:#158084;
+--para-color:#072B2C;
+--button-bg:#105F62;
+--chk-bg:#1DAAAF;
+--green-color:#001A0B;
+}
+
+body{overflow-x:hidden;}
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+.secondary-font{
+    font-family: 'Outfit', sans-serif;
+}
+.account-logo{width: 100%;position: relative;float: left;height: 100vh;display: flex;justify-content: center;align-items: center;background: var(--primary-bg);}
+.account-logo img{width: 300px;}
+.account-logo .footer-text{position: fixed;bottom: 25px;}
+.account-logo .footer-text p{font-size: 14px;font-weight: normal;text-align: center;color: var(--white);line-height: 24px;}
+/* second */
+.account-logo1{width: 100%;position: relative;float: left;height: 100vh;display: flex;justify-content: center;align-items: center;background: var(--secondary-bg);}
+.account-logo1 img{width: 300px;}
+.account-logo1 .footer-text{position: fixed;bottom: 25px;}
+.account-logo1 .footer-text p{font-size: 14px;font-weight: normal;text-align: center;color: var(--black);line-height: 24px;}
+
+/* green */
+.green-logo{width: 100%;position: relative;float: left;height: 100vh;display: flex;justify-content: center;align-items: center;background: var(--green);}
+.green-logo img{width: 300px;}
+.green-logo .footer-text{position: fixed;bottom: 25px;}
+.green-logo .footer-text p{font-size: 14px;font-weight: normal;text-align: center;color: var(--white);line-height: 24px;}
+
+/* green-second */
+.green-second{width: 100%;position: relative;float: left;height: 100vh;display: flex;justify-content: center;align-items: center;background: var(--green-second);}
+.green-second img{width: 300px;}
+.green-second .footer-text{position: fixed;bottom: 25px;}
+.green-second .footer-text p{font-size: 14px;font-weight: normal;text-align: center;color: var(--black);line-height: 24px;}
+
+/* blue-logo */
+.blue-logo{width: 100%;position: relative;float: left;height: 100vh;display: flex;justify-content: center;align-items: center;background: var(--blue);}
+.blue-logo img{width: 300px;}
+.blue-logo .footer-text{position: fixed;bottom: 25px;}
+.blue-logo .footer-text p{font-size: 14px;font-weight: normal;text-align: center;color: var(--white);line-height: 24px;}
+
+/* blue-second */
+.blue-second{width: 100%;position: relative;float: left;height: 100vh;display: flex;justify-content: center;align-items: center;background: var(--blue-second);}
+.blue-second img{width: 300px;}
+.blue-second .footer-text{position: fixed;bottom: 25px;}
+.blue-second .footer-text p{font-size: 14px;font-weight: normal;text-align: center;color: var(--black);line-height: 24px;}
+
+/* login */
+.login{width: 100%;position: relative;float: left;border:1px solid var(--primary-border);border-radius: 10px;padding: 20px;background: var(--secondary-bg);}
+.shado-box{box-shadow: 0px 4px 4px 0px rgba(22, 34, 51, 0.05), 0px 4px 24px 0px rgba(22, 34, 51, 0.05), 0px 24px 24px 0px rgba(22, 34, 51, 0.05), 0px 32px 32px 0px rgba(22, 34, 51, 0.05), 0px 120px 120px 0px rgba(22, 34, 51, 0.08);}
+.login .headh3{color: var(--primary-color);font-size: 22px;font-weight: 700;text-align: center;text-transform: uppercase;line-height: 30px;}
+.login .para{font-size: 14px;font-weight: normal;text-align: center;color: var(--para-color);}
+.login .lbl{color: var(--para-color);font-size: 15px;font-weight: normal;text-align: left;margin-bottom: 5px;}
+.login .form-control{border: 1px solid var(--primary-border);padding: 8px 12px;font-size: 15px;font-weight: normal;color: var(--para-color);background: transparent;}
+.login .form-control:focus{outline: none;box-shadow: none;background: transparent;}
+.login .login-btn{background: var(--button-bg);padding: 8px 12px;color: var(--white);text-transform: uppercase;font-size: 18px;font-weight: 700;text-align: center;border: 1px solid var(--button-bg);border-radius: 5px;}
+.login .login-btn:hover{background: transparent;color: var(--button-bg);    transition: all .5s ease}
+.login .forgot{font-size: 13px;font-weight: normal;color: var(--para-color);text-decoration: none;}
+.login .forgot:hover{color: var(--button-bg);}
+.login .form-check-input{background-color: var(--chk-bg)!important;border: 1px solid var(--chk-bg)!important;}
+.login-logo{text-align: center;width: 100%;float: left;}
+ .login-logo img{width: 150px;}
+
+/* login-green */
+.login-green{width: 100%;position: relative;float: left;border:1px solid var(--secondary-bg);border-radius: 10px;padding: 20px;background: var(--secondary-bg);}
+.shado-box{box-shadow: 0px 4px 4px 0px rgba(22, 34, 51, 0.05), 0px 4px 24px 0px rgba(22, 34, 51, 0.05), 0px 24px 24px 0px rgba(22, 34, 51, 0.05), 0px 32px 32px 0px rgba(22, 34, 51, 0.05), 0px 120px 120px 0px rgba(22, 34, 51, 0.08);}
+.login-green .headh3{color: var(--green);font-size: 22px;font-weight: 700;text-align: center;text-transform: uppercase;line-height: 30px;}
+.login-green .para{font-size: 14px;font-weight: normal;text-align: center;color: var(--para-color);}
+.login-green .lbl{color: var(--green-color);font-size: 15px;font-weight: normal;text-align: left;margin-bottom: 5px;}
+.login-green .form-control{border: 1px solid var(--green);padding: 8px 12px;font-size: 15px;font-weight: normal;color: var(--para-color);background: transparent;}
+.login-green .form-control:focus{outline: none;box-shadow: none;background: transparent;}
+.login-green .login-btn{background: var(--green);padding: 8px 12px;color: var(--white);text-transform: uppercase;font-size: 18px;font-weight: 700;text-align: center;border: 1px solid var(--green);border-radius: 5px;}
+.login-green .login-btn:hover{background: transparent;color: var(--green);  transition: all .5s ease}
+.login-green .forgot{font-size: 13px;font-weight: normal;color: var(--green-color);text-decoration: none;}
+.login-green .forgot:hover{color: var(--green);transition: all .5s ease}
+.login-green .form-check-input{background-color: var(--green)!important;border: 1px solid var(--green)!important;}
+.login-logo{text-align: center;width: 100%;float: left;}
+.login-logo img{width: 150px;}

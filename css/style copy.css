@@ -1,0 +1,71 @@
+
+:root{
+    --primary-color:#142C44;
+    --yellow:#FBBE36;
+    --box-shadow: 6px 6px 0px 0px #142C44;
+    --bussiness:#F1F2F4;
+    --border:rgba(38, 50, 56, 0.17);
+    --blue:#113474;
+
+--cat-shadow:6px 6px 0px 0px #5E6775;
+--learning:#F7C75A;
+--educator:#E6F2FF;
+--educator-box:#F2F8FF;
+}
+
+body{font-family: 'Secular One', sans-serif;}
+
+.font-dm{font-family: 'DM Mono', monospace;}
+.para{font-size: 16px;font-weight: normal;text-align: left;}
+.brd{border-bottom: 1px solid var(--border);}
+/* trending section */
+.trending{padding: 30px 0px 30px 0px;background: url(../img/trading.svg);background-size: cover;}
+.trending .trade-box{border-radius: 20px;padding: 20px;}
+.trending .trade-box h3{font-size: 19px;font-weight: 500;line-height: 28px;color: var(--primary-color);height: 65px;}
+.trending .trade-box p{font-size: 15px;font-weight: normal;line-height: 24px;color: var(--primary-color);text-align: justify;}
+.trending .trade-box h5{font-size: 18px;font-weight: 500;color: var(--primary-color);}
+.trending .trade-box span{font-size: 14px;color: var(--primary-color);}
+.trending .trade-box:hover{background: var(--yellow);border: 2px solid var(--yellow)!important;box-shadow: var(--box-shadow);}
+.trending h2{font-size: 35px;font-weight: 600;color: var(--primary-color);}
+.trending button{background: var(--primary-color);border: 1px solid var(--primary-color);border-radius: 30px;}
+.trending button:hover{background: transparent;color: var(--primary-color)!important;}
+
+/* Bussiness */
+.bussiness{background: var(--bussiness);padding: 40px 0px 40px 0px;}
+.bussiness img{width: 100%;}
+.bussiness h2{font-size: 30px;font-weight: 500;line-height: 40px;color: var(--primary-color);}
+
+/* Categories */
+.categories{background: var(--blue);padding: 30px 0px 30px 0px;}
+.categories .cat-box{border-radius: 20px;border: 2px solid var(--bussiness);margin-bottom: 20px;}
+.categories .cat-box h2{font-size: 24px;font-weight: 500;color: var(--bussiness);}
+.categories .cat-box img{width: 90px;height: 90px;}
+.categories .cat-box:hover{background: var(--yellow);box-shadow: var(--cat-shadow);border: 2px solid var(--yellow);}
+.categories .cat-box:hover h2{color: var(--primary-color);}
+.cat-btn{background: transparent;border: 1px solid var(--bussiness);text-align: center;color: var(--bussiness);border-radius: 30px;}
+.cat-btn:hover{background: var(--bussiness);color: var(--primary-color)!important;}
+
+/* learning */
+.learning{background: var(--learning);padding: 40px 0px 30px 0px;}
+.learning button{background: var(--primary-color);color: var(--bussiness);border: 1px solid var(--primary-color);border-radius: 20px;padding: 7px 0px 7px 0px;}
+.learning button:hover{background: transparent;color: var(--primary-color)!important;}
+
+/* footre */
+.footer{background: var(--primary-color);padding: 30px 0px 20px 0px;}
+.footer h3{color: var(--bussiness);font-size: 20px;font-weight: 300;}
+.footer li{list-style-type: none;}
+.footer li a{color: var(--bussiness);font-size: 15px;font-weight: normal;text-decoration: none;}
+.footer li a:hover{color: var(--learning);}
+.copywrite{border-top: 1px solid var(--bussiness);padding: 20px 0px 0px 0px;}
+.copywrite p{font-size: 15px;font-weight: normal;line-height: 24px;}
+
+/* Educator */
+.educator{background: var(--educator);padding: 30px 0px 30px 0px;}
+.educator-box{border-radius:15px;background: var(--educator-box);}
+.educator-box p{font-size: 15px;font-weight: normal;color: var(--primary-color);}
+.educator-box h3{font-size: 25px;font-weight: 500;color: var(--primary-color);line-height: 33px;}
+
+
+/* partner */
+.partner{background: var(--primary-color);padding: 40px 0px 40px 0px;}
+.partner h6{font-size: 15px;font-weight: normal;}
